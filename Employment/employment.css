@@ -1,4 +1,95 @@
 ﻿@charset="utf-8";
+/*Structural Styles*/
+html {
+	background-image: url(4kwall.jpg);
+	background-size: cover;
+	height: 100%;
+}
 
+body {
+    background-color: rgb(200, 188, 209);
+    box-shadow: rgb(51, 51, 51) 10px 0px 40px, rgb(51, 51, 51) -10px 0px 40px;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    min-height: 100%;
+    margin: 0px auto;
+    min-width: 400px;
+    max-width: 1024px;
+    width: 100%;
+}
+
+
+
+
+/* Navigation Styles */
+nav.horizontal {
+    list-style: none;
+    text-align: center;
+    background-color: black;
+    word-spacing: 20px;
+    margin-top: 0px;
+}
+
+    nav.horizontal li {
+        display: inline;
+    }
+
+    nav.horizontal a {
+        display: inline-block;
+        padding: 11px;
+        color: white;
+        text-decoration: none;
+        /* Found transition from https://stackoverflow.com/questions/6008324/fade-effect-on-link-hover*/
+        -o-transition: .5s;
+        -ms-transition: .5s;
+        -moz-transition: .5s;
+        -webkit-transition: .5s;
+        transition: .5s;
+    }
+    li a:hover {
+        background-color: gray;
+    }
+
+
+div img {
+    margin-left: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 40%;
+    box-shadow: 5px 10px 10px rgb(33, 54, 86);
+}
+
+li a:hover {
+    background-color: gray;
+}
+
+/* Article Styles */
+article {
+	position: relative;
+	bottom: 300px;
+	left: 200px;
+    text-align: center;
+    font-size: 2em;
+} 
+article.bottomtxt {
+	position: relative;
+	bottom: 100px;
+}
+
+}
+body header img {
+    width: 100%;
+    height: 100px;
+}
+
+div.head {
+    background-color: rgb(37, 68, 119);
+    height: 100px;
+    text-align: center;
+    font-size: 3em;
+    padding-top: 20px;
+    color: white;
+    text-shadow: 2px 2px purple;
+}
 
 
