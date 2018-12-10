@@ -71,12 +71,7 @@ article {
     text-align: center;
     font-size: 2em;
 } 
-article.bottomtxt {
-	position: relative;
-	bottom: 100px;
-}
 
-}
 body header img {
     width: 100%;
     height: 100px;
@@ -90,6 +85,21 @@ div.head {
     padding-top: 20px;
     color: white;
     text-shadow: 2px 2px purple;
+}
+
+img.Dierbergs {
+	margin-left: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 35%;
+    box-shadow: 5px 10px 10px rgb(33, 54, 86);
+}
+
+article.bottomtxt {
+	position: relative;
+	bottom: 190px;
+	left: 250px;
+	font-size: 2em;
 }
 
 
