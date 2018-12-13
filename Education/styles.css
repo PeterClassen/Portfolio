@@ -11,7 +11,7 @@ body {
     box-shadow: rgb(51, 51, 51) 10px 0px 40px, rgb(51, 51, 51) -10px 0px 40px;
     border-left: 1px solid gray;
     border-right: 1px solid gray;
-    min-height: 100%;
+    height: 120%;
     margin: 0px auto;
     min-width: 400px;
     max-width: 1024px;
@@ -46,6 +46,7 @@ nav.horizontal {
         -webkit-transition: .5s;
         transition: .5s;
     }
+	
     li a:hover {
         background-color: gray;
     }
@@ -54,10 +55,9 @@ nav.horizontal {
 div img {
     margin-left: 360px;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 500px;
     width: 30%;
     box-shadow: 5px 10px 10px rgb(33, 54, 86);
-	
 }
 
 li a:hover {
@@ -69,6 +69,7 @@ li a:hover {
 body header img {
     width: 100%;
     height: 100px;
+	
 }
 
 div.head {
@@ -80,26 +81,52 @@ div.head {
     color: white;
     text-shadow: 2px 2px purple;
 }
-/*Table Styles*/
-table.table1 img { 
-	width: 95%;
-}
-table.table2 img {
-	width: 95%;
+
+div.leftbox {
+	text-align: center;
+	font-size: 1.5em;
+	position: relative;
+	top: 2em;
 } 
-caption {
-	padding-top: 30px;
-	font-size: 2em;
-}
 
 article {
-	position: relative;
-	top: 10px;
+	font-size: 1.5em;
 	text-align: center;
-	font-size: 1.3em;
-} 
-div.picture {
-	width: 60%;
 	position: relative;
-	left: 70px;	
+	top: 14em;
 }
+
+img#schoolpic {
+	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	position: relative;
+	bottom: 23em;
+	  box-shadow: 5px 10px 10px rgb(33, 54, 86);
+	
+}
+img#scu {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	position: relative;
+	top: 23em;
+	  box-shadow: 5px 10px 10px rgb(33, 54, 86);
+  }
+  
+  
+/* ===============================
+   Mobile Styles: 0px to 640px 
+   ===============================
+*/
+@media only screen and (max-width: 640px) {
+	
+}
+
+
+
+
+
